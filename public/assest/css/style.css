@@ -114,13 +114,14 @@ hr {
 
 .banner-text-wrapper {
     position: absolute;
-    top: 40%;              
-    left: 27%;            
-    transform: translate(-50%, -50%); 
-    
+    top: 40%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+
     color: #fff;
 }
-.banner-offer{
+
+.banner-offer {
     position: absolute;
     top: 40%;
     left: 0;
@@ -301,7 +302,7 @@ a:-webkit-any-link {
     display: flex;
     justify-content: center;
     gap: 20px;
-  
+
 
 }
 
@@ -346,10 +347,12 @@ a:-webkit-any-link {
     margin: 0px 140px;
 
 }
-.poster-bg-colour{
+
+.poster-bg-colour {
     background-color: #fade97;
 
 }
+
 .poster-card-section {
     display: flex;
     padding: 20px;
@@ -391,125 +394,142 @@ a:-webkit-any-link {
 .btn-wrapper {
     display: flex;
     justify-content: center;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
-.social-wrapper{
+
+.social-wrapper {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 5px;
 }
-.social-card{
-  
+
+.social-card {
+
     width: 300px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
     padding: 8px;
 }
-.social-card-img{
+
+.social-card-img {
     width: 100%;
 }
-.social-head{
+
+.social-head {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 10px;
-}.social-para{
+}
+
+.social-para {
     text-align: center;
     margin-bottom: 10px;
 }
-.social-card{
+
+.social-card {
     padding: 15px;
 }
-.poster-btn{
+
+.poster-btn {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-.poster-btn{
+
+.poster-btn {
     display: flex;
     justify-content: center;
 }
-.truck-icon{
-   background-color: #dad7d1;
-   border-radius: 10px;
-   padding: 3px;
+
+.truck-icon {
+    background-color: #dad7d1;
+    border-radius: 10px;
+    padding: 3px;
 }
+
 hr {
     height: 1px;
     color: #e4dcdc;
 }
+
 .social-card {
-  width: 260px;
-  background: #fff;
-  border: 1px solid #eee;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-  text-align: left;
-  display: flex;
-  flex-direction: column;
+    width: 260px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
-.card-grid{
+
+.card-grid {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
 .user {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .user img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .user .icon {
-  margin-left: auto;
-  width: 20px;
-  height: 20px;
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
 }
 
 .post-img {
-  width: 100%;
-  border-radius: 8px;
-  margin: 10px 0;
-  overflow: hidden;
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+    overflow: hidden;
 }
 
 .see-all {
-  background: #ffb200;
-  color: #fff;
-  padding: 12px 25px;
-  border: none;
-  font-weight: bold;
-  border-radius: 50px;
-  cursor: pointer;
-  margin-top: 30px;
-margin-bottom: 20px;
+    background: #ffb200;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-.social-card-img img{
-    width:100%;
+.social-card-img img {
+    width: 100%;
     height: auto;
 }
-.sub-text{
+
+.sub-text {
     text-align: center;
     margin-bottom: 30px;
 }
-.sub-title{
+
+.sub-title {
     text-align: center;
     margin-bottom: 20px;
 
 }
-.btn-wrap{
+
+.btn-wrap {
     display: flex;
     justify-content: center;
 }
+
 .reviews-section {
     width: 100%;
-    background: #eaf6f5;   
+    background: #eaf6f5;
     display: grid;
     grid-template-columns: 250px 1fr;
     padding: 40px 20px;
@@ -525,7 +545,7 @@ margin-bottom: 20px;
 
 
 .left-box h3 {
-    color: #00a67d;  
+    color: #00a67d;
     font-size: 22px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -610,7 +630,8 @@ margin-bottom: 20px;
     font-size: 13px;
     font-weight: bold;
 }
-.footer-newsletter{
+
+.footer-newsletter {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -650,7 +671,7 @@ margin-bottom: 20px;
 .review-card {
     padding: 20px;
     border-radius: 10px;
-    
+
 }
 
 
@@ -705,16 +726,17 @@ margin-bottom: 20px;
     max-width: 500px;
     margin: auto;
 }
---------------------- */
-/* RESPONSIVE FIXES */
-.footer-newsletter{
+
+.footer-newsletter {
     background-color: #16a085;
 
 }
-   .bg-footer {
+
+.bg-footer {
     background-color: #f1eeb9;
     padding: 15px;
-   }
-   .footer-newsletter{
+}
+
+.footer-newsletter {
     margin-top: 50px;
-   }
+}
