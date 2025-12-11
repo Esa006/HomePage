@@ -23,7 +23,7 @@
 }
 
 .container {
-    width: 100%;
+    width: 96%;
     padding: 30px auto;
     display: flex;
     align-items: center;
@@ -85,6 +85,7 @@ hr {
 
 .nav-heading {
     color: #ffa500;
+    margin-left: 35px;
 }
 
 .banner-img {
@@ -122,7 +123,6 @@ hr {
 }
 
 .banner-offer {
-    position: absolute;
     top: 40%;
     left: 0;
 }
@@ -222,7 +222,7 @@ a:-webkit-any-link {
 }
 
 .product-card .product-img img {
-    width: 250px;
+    width: 300px;
     height: auto;
 
 }
