@@ -24,7 +24,7 @@
 
 .container {
     width: 96%;
-    padding: 30px auto;
+  padding: 30px 0;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -51,12 +51,7 @@ li a {
     background-color: #ffffff;
 }
 
-.service-page.cart-icon-link {
-    display: flex;
-
-}
-
-.service-page.cart-icon-link {
+.service-page .cart-icon-link {
     display: flex;
 }
 
@@ -95,7 +90,7 @@ hr {
 
 .banner-section {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     margin-top: 0px;
     background-image: url("../image/banner/food-banner.png");
     background-size: cover;
@@ -243,7 +238,7 @@ a:-webkit-any-link {
 
 .addcart-btn {
     background-color: #ffa500;
-    color: #fff;
+    color: #ffffff;
     padding: 7px 9px;
     border: none;
     border-radius: 1px;
@@ -468,6 +463,12 @@ hr {
     justify-content: center;
     gap: 20px;
 }
+a:-webkit-any-link {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
 
 .user {
     display: flex;
@@ -727,10 +728,6 @@ hr {
     margin: auto;
 }
 
-.footer-newsletter {
-    background-color: #16a085;
-
-}
 
 .bg-footer {
     background-color: #f1eeb9;
