@@ -462,6 +462,7 @@ hr {
     justify-content: center;
     gap: 20px;
 }
+
 a:-webkit-any-link {
     text-decoration: none;
     border: none;
