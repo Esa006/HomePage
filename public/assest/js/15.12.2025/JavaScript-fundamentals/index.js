@@ -364,11 +364,9 @@ let items = ["apple", "banana", "orange"];
 console.log(items.indexOf("banana"));
 console.log(items.join("mango"));
 
-
 setTimeout(function () {
   console.log("Hello-isaac");
 }, 1000);
-
 
 (function () {
   console.log("Executed immediately");
