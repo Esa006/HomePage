@@ -14,7 +14,7 @@ let userName = "John";
 console.log("camelCase", userName);
 let UserAccount = "Hello Case";
 console.log("PascalCase", UserAccount);
-// snake_case
+
 let shopping_cart_items = 5;
 console.log("snake_case", shopping_cart_items);
 
@@ -364,14 +364,12 @@ let items = ["apple", "banana", "orange"];
 console.log(items.indexOf("banana"));
 console.log(items.join("mango"));
 
-//Anonymous Function
+
 setTimeout(function () {
   console.log("Hello-isaac");
 }, 1000);
 
-// IIFE (Immediately Invoked Function Expression)
-// Runs immediately
-// Avoids global scope pollution
+
 (function () {
   console.log("Executed immediately");
 })();
